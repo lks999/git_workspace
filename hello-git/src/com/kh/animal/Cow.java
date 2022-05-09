@@ -2,7 +2,7 @@ package com.kh.animal;
 
 /**
  * reset : 지정버전으로 돌아감
- *  - hard : 이후 변경사항 모두 제가
+ *  - hard : 이후 변경사항 모두 제거
  *  - mixed : 이후 변경사항을 unstaged change에서 관리
  *	- soft : 이후 변경사항을 staging area에 추가
  *
@@ -11,8 +11,7 @@ package com.kh.animal;
  *  - conflict 발생가능성있음
  */
 public class Cow {
-	private String mame;
-	private String type;
+	private String name;
 	
 	public void run() {
 		System.out.println("소가 달립니다");
