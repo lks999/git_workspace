@@ -2,6 +2,7 @@ package com.kh.animal;
 
 public class Snake {
 	
+	private double length; // master에서 추가
 	private String name; // master에서 추가
 
 	public void move() {
