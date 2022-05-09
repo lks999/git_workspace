@@ -1,8 +1,8 @@
 package com.kh.git;
 
 public class HelloJava {
-
-	public static void main(String[] args) {
-		
+	
+	public void print() {
+		System.out.println("Hello java~");
 	}
 }
